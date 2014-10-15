@@ -5,7 +5,7 @@ bot = ->
 
 
 dbase = ->
-	arr = ["進捗どうですか" , "つらい" , "ゲムー" , "(◞‸◟)" , "くコ:彡" , "もうねよう","MGTたのしそう","rennyu.coffee","すやすや","σ(o'v'o)まとも"]
+	arr = ["進捗どうですか" , "つらい" , "ゲムー" , "(◞‸◟)" , "くコ:彡" , "もうねよう","MGTたのしそう","rennyu.coffee","すやすや","σ(o'v'o)まとも","なんでや"]
 	console.log "dbase"
 
 	for key, elm in arr
@@ -23,7 +23,7 @@ dbase = ->
 	
 
 rangeRnd = (min,max) ->
-	
+
 	rnd = Math.floor(Math.random()*max) 
 	rnd = rnd 
 	console.log rnd
