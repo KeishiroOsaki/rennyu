@@ -5,15 +5,16 @@ bot = ->
 
 
 dbase = ->
-	arr = ["進捗どうですか" , "つらい" , "ゲムー" , "(◞‸◟)" , "くコ:彡" , "もうねよう","MGTたのしそう","rennyu.coffee","すやすや","σ(o'v'o)まとも","なんでや"]
+	arr = ["進捗どうですか" , "つらい" , "ゲムー" , "(◞‸◟)" , "くコ:彡" , "もうねよう","MGTたのしそう","rennyu.coffee","すやすや","σ(o'v'o)まとも","なんでや","キムチムチムチ~w","キレそう","もうよじか","明日はにちようび!","ブログ更新すっか"]
 	console.log "dbase"
 
 	for key, elm in arr
 		i=i+1
 
 	i=i-1
+	console.log elm
 	i=10
-	res = arr[rangeRnd(0,i)]
+	res = arr[rangeRnd(0,elm)]
 #	res = arr[Math.random()*10]
 #	res = arr[1]
 

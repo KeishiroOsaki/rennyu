@@ -10,15 +10,16 @@
 
   dbase = function() {
     var arr, elm, i, key, res, _i, _len;
-    arr = ["進捗どうですか", "つらい", "ゲムー", "(◞‸◟)", "くコ:彡", "もうねよう", "MGTたのしそう", "rennyu.coffee", "すやすや", "σ(o'v'o)まとも", "なんでや"];
+    arr = ["進捗どうですか", "つらい", "ゲムー", "(◞‸◟)", "くコ:彡", "もうねよう", "MGTたのしそう", "rennyu.coffee", "すやすや", "σ(o'v'o)まとも", "なんでや", "キムチムチムチ~w", "キレそう", "もうよじか", "明日はにちようび!", "ブログ更新すっか"];
     console.log("dbase");
     for (elm = _i = 0, _len = arr.length; _i < _len; elm = ++_i) {
       key = arr[elm];
       i = i + 1;
     }
     i = i - 1;
+    console.log(elm);
     i = 10;
-    res = arr[rangeRnd(0, i)];
+    res = arr[rangeRnd(0, elm)];
     console.log(res);
     return res;
   };
